@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg_log.css" />
+    <title>Registration-LogIn</title>
+</head>
+<body>
+    <h1>Registration & LogIn Window</h1>
+    
+    <!-- Посилання на сторінку з реєстрацією -->
+    <div class="link">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item ml-5">
+                    <a class="nav-link " href="Lab_4.html">Main Page</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Створення необхідних елементів для введення логіну -->
+    <input type="text" id="inputText" placeholder="Enter LogIn" required="">
+    <button class="btn" onclick="checkInput()">Перевірити</button>
+
+        <!-- Створення необхідних елементів для введення пароля -->
+    <p><input type="text" id="inputText1" placeholder="Enter Password" required="" /></p>
+    <button class="btn" onclick="checkTextLength()">Підтвердити</button>
+
+
+        <!-- Повторення вище введених даних -->
+    <h2>Повторіть, будь ласка, введений вище логін та пароль!</h2>
+
+        <!-- Створення необхідних елементів для введення логіну -->
+    <input type="text" id="inputText11" placeholder="Enter LogIn Again" required="">
+    <button class="btn" onclick="checkInput1()">Перевірити</button>
+
+        <!-- Створення необхідних елементів для введення пароля -->
+    <p><input type="text" id="inputText12" placeholder="Enter Password Again" required="" /></p>
+    <button class="btn" onclick="checkTextLength1()">Підтвердити</button>
+
+    <script src="reg_log.js"></script>
+    
+</body>
+</html>
